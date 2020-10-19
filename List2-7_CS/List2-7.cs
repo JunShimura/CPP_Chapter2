@@ -45,6 +45,9 @@ namespace List2_7_CS
 			// 標準体重を画面に表示する
 			//cout << "あなたの標準体重は、" << stdWeight << "kgです。" << endl;
 			Console.WriteLine("あなたの標準体重は{0:f1}です。", stdWeight);
+
+			string judgement = bmi >= STD_BMI ? "肥満です" : "肥満ではありません。";
+
 			return ;
 		}
     }
